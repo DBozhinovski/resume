@@ -1,0 +1,20 @@
+{{!< layout.html }}
+
+{{#each articles}}
+  <header>
+    <p>{{moment date}}</p>
+    <h2><a href='{{url}}'> {{title}}</a></h2>
+  </header>
+{{/each}}
+
+<div class='nav'>
+  {{#if prevPage}}
+    <a href='{{prevPage.url}}'> << Newer </a>
+  {{else}}
+    <a href='/archive.html'><< Archives</a>
+  {{/if}}
+
+  {{#if nextPage}}
+    <a href='{{nextPage.url}}'>Next page >></a>
+  {{/if}}
+</div>
