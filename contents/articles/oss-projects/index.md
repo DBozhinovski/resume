@@ -16,7 +16,7 @@ Prismatic is a promise-based wrapper for FFmpeg. It is used at the core of the v
 
 ### AwesomePad
 
-AwesomePad is a simple, offline, browser-based note-taking application which I built for a course I authored. I am currently writing a newer version of the app, by using a completely different approach to it.
+AwesomePad is a simple, offline, browser-based note-taking application which I built for a course I authored. I am currently writing a newer version of the app, by using a completely different approach to it (and as an excuse to delve deeper into [FRP](http://en.wikipedia.org/wiki/Functional_reactive_programming)).
 
 - https://github.com/DBozhinovski/awesomepad
 
