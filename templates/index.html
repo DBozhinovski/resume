@@ -1,10 +1,14 @@
 {{!< layout.html }}
 
-{{> toc}}
+<div class='toc'>
+  {{> toc}}
+</div>
 
+<div class='content'>
 {{#each articles}}
     <h2 id='{{url-title title}}'>{{title}}</h2>
   <article class='article'>
       {{{typogr html}}}
   </article>
 {{/each}}
+</div>

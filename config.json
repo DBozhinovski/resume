@@ -25,6 +25,6 @@
   "paginator": {
     "template": "index.html",
     "first": "index.html",
-    "perPage": 3
+    "perPage": 20
   }
 }
