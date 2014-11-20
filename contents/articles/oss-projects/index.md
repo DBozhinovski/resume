@@ -2,7 +2,7 @@
 title: Open source projects
 author: darko
 date: 2012-09-01 15:00
-template: article.html
+template: index.html
 ---
 
 ### Prismatic

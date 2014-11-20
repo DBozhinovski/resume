@@ -2,7 +2,7 @@
 title: About me
 author: darko
 date: 2012-12-01 15:00
-template: article.html
+template: index.html
 ---
 
 I am a developer who likes to experiment, explore new technologies and combine existing ones towards new uses. I believe

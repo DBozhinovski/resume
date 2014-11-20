@@ -2,7 +2,7 @@
 title: Employment history
 author: darko
 date: 2012-11-01 15:00
-template: article.html
+template: index.html
 ---
 ### Freelance consultant
 2014 - current
