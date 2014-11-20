@@ -1,7 +1,7 @@
 ---
 title: //
 author: darko
-date: 2012-10-01 15:00
+date: 2012-01-01 15:00
 template: article.html
 ---
 
