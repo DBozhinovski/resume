@@ -3,13 +3,8 @@
 {{> toc}}
 
 {{#each articles}}
-  <header>
-    <h2>{{title}}</h2>
-    <span id='{{url-title title}}'></span>
-  </header>
+    <h2 id='{{url-title title}}'>{{title}}</h2>
   <article class='article'>
-    <section class='content'>
       {{{typogr html}}}
-    </section>
   </article>
 {{/each}}

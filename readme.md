@@ -1,4 +1,4 @@
 
-# Blog
+# My Resume
 
-The default [wintersmith](https://github.com/jnordberg/wintersmith) template
+This is the source for my resume. Built with [wintersmith](https://github.com/jnordberg/wintersmith).
