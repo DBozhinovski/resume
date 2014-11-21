@@ -7,7 +7,7 @@ template: index.html
 
 ### Building an application with CoffeeScript
 #### PACKT publishing
-2014
+##### 2014
 
 Building and application with CoffeeScript is a video course aimed at beginner-to-intermediate JavaScript developers. I built the course with the idea of it being as hands-on as possible in order to provide some working knowledge of the language to the audience.
 
