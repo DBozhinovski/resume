@@ -1,8 +1,23 @@
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
 body {
   background-color: #f8f8f8;
+  /*background: #F6FFE0;*/
   text-rendering: optimizeLegibility;
   font-size: 1.4em;
-  line-height: 1.5em;
+  line-height: 1.4em;
+  font-family: Lato;
+  font-weight: 300;
+}
+
+p {
+  line-height: 1.4em;
 }
 
 .toc {
@@ -11,16 +26,97 @@ body {
   top: 0;
   width: 230px;
   font-size: .8em;
+  height: 100%;
+  background: #ddd;
+  box-shadow: 0 -4px 6px rgba(0,0,0, .4);
+}
+
+.toc li {
+  color: #888;
+}
+
+.toc a {
+  color: #1BBC9B;
+  text-decoration: none;
+}
+
+.profile {
+  width: 120px;
+  display: block;
+  margin: 20px auto;
+  margin-bottom: 40px;
+  border: 3px solid #999;
+  border-radius: 120px;
 }
 
 header {
-  margin-left: 100px;
+  margin-bottom: 2em;
+}
+
+header h1 {
+  margin-bottom: 5px;
+}
+
+.description {
+  font-style: italic;
+  margin-left: 10px;
+  margin-top: 0;
+  font-family: Lora;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: Lora;
+}
+
+header {
+  margin-left: 20px;
 }
 
 main {
-  margin-left: 120px;
+  margin-left: 40px;
 }
 
 .content {
   margin-right: 250px;
+}
+
+article {
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 50px;
+}
+
+.content h2 {
+  color: #E6860D;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 40px;
+}
+
+.content a {
+  color: #1BBC9B;
+}
+
+.content h3 {
+  margin: 0;
+  margin-top: 60px;
+  margin-bottom: 20px;
+  padding: 0;
+}
+
+.content h4 {
+  margin: 0;
+  padding: 0;
+  color: #666;
+  font-weight: normal;
+}
+
+.content h5 {
+  margin: 0;
+  padding: 0;
+  font-weight: 300;
+  font-family: Lato;
+}
+
+sup a{
+  text-decoration: none;
 }

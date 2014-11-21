@@ -49,6 +49,22 @@ p {
   border-radius: 120px;
 }
 
+.social {
+  margin: 20px;
+  position: absolute;
+  bottom: 0;
+}
+
+.social i {
+  font-size: 30px;
+}
+
+.social h2 {
+  font-family: Lato;
+  font-size: 18px;
+  text-align: center;
+}
+
 header {
   margin-bottom: 2em;
 }
