@@ -59,10 +59,18 @@ p {
   font-size: 30px;
 }
 
-.social h2 {
+.social h2, .gh-feed h2 {
   font-family: Lato;
   font-size: 18px;
   text-align: center;
+}
+
+.gh-feed {
+  margin-top: 60px;
+}
+
+.gh-feed ul {
+  font-size: 14px;
 }
 
 header {

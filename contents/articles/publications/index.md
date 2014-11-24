@@ -1,7 +1,7 @@
 ---
 title: Publications
 author: darko
-date: 2012-08-01 15:00
+date: 2012-07-01 15:00
 template: index.html
 ---
 
