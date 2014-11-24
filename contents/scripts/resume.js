@@ -1,15 +1,4 @@
 document.addEventListener('DOMContentLoaded', function(){
-  // var github = new Github({
-  //   token: '8c45275ad364643248c7dd63fd5479850544e3ca',
-  //   auth: 'oauth'
-  // });
-  //
-  // var user = github.getUser();
-  //
-  // user.show('dbozhinovski',function(error, response){
-  //   console.log(response);
-  // });
-
   var githubRequest = new XMLHttpRequest();
   githubRequest.open('GET', 'https://api.github.com/users/dbozhinovski/events', true);
 
@@ -43,7 +32,7 @@ document.addEventListener('DOMContentLoaded', function(){
             buffer += 'Forked ';
           }
 
-          buffer += '<a href=\'' + item.repo.url + '\'>' + item.repo.name + '</a>';
+          buffer += '<a href=\'' + item.repo.url.replace('api.', '').replace('repos/', '') + '\'>' + item.repo.name + '</a>';
 
           buffer += '</li>';
         }
@@ -52,7 +41,6 @@ document.addEventListener('DOMContentLoaded', function(){
       });
 
       element.innerHTML = buffer;
-      // console.log(this.response);
     } else {
       console.log('error');
     }
