@@ -50,7 +50,8 @@ p {
 }
 
 .social {
-  margin: 20px;
+  padding: 20px;
+  width: 100%;
   position: absolute;
   bottom: 0;
 }
@@ -66,7 +67,7 @@ p {
 }
 
 .gh-feed {
-  /*margin-top: 60px;*/
+  width: 100%;
   position: absolute;
   bottom: 120px;
 }

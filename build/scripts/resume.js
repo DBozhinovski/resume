@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', function(){
       var count = 0;
 
       JSON.parse(this.response).forEach(function(item){
-        if(count < 5){
+        if(count < 3){
           buffer += '<li>';
 
           if(item.type === 'WatchEvent'){
