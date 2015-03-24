@@ -7,7 +7,8 @@ template: index.html
 ### Freelance consultant
 ##### 2014 - current
 
-I am currently doing some freelance work for a local company, building a distributed video platform.
+I am currently doing some freelance work for a local company. We built a distributed video platform, and we are currently working on a scraper,
+which aims to provide contextual data out of web pages and services.
 
 ### MediaLab
 #### Senior developer

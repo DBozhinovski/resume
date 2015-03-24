@@ -5,6 +5,18 @@ date: 2012-10-01 15:00
 template: index.html
 ---
 
+### Eterni.me
+##### 2014 - current
+
+Eterni.me is a project that aims to make one digital immortal. The goal is to create a digital avatar of a person, so they leave behind a lasting and meaningful legacy.
+
+**Technologies used**: JavaScript, Node.js, RethinkDB
+
+### Gambit
+##### 2015 - current
+
+gambit.com is a gaming platform, for which I build various games. It's my first endeavor into the game dev world, bulding various casual games.
+
 ### Sideo
 ##### 2014
 
