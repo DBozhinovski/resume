@@ -1,5 +1,5 @@
 ---
-title: Projects I've worked on
+title: My Work
 author: darko
 date: 2012-11-01 15:00
 template: index.html
