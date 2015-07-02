@@ -10,7 +10,7 @@ template: index.html
 
 Eterni.me is a project that aims to make one digital immortal. The goal is to create a digital avatar of a person, so they leave behind a lasting and meaningful legacy.
 
-**Technologies used**: JavaScript, Node.js, RethinkDB, MongoDB
+**Technologies used**: JavaScript, Node.js, SuperScript, RethinkDB, MongoDB
 
 ### Scrap.io
 ##### 2014 - current
