@@ -220,3 +220,50 @@
     text-decoration: none;
   }
 }
+
+ @media only screen and (max-width : 480px) {
+   main {
+     margin: 0;
+     width: 100%;
+   }
+
+   h1 {
+     font-size: 26px;
+   }
+
+   .description {
+     font-size: 20px;
+   }
+
+   .content {
+     width: 100%;
+     margin: 0;
+     padding: 0;
+   }
+
+   .toc {
+     position: static;
+     width: 100%;
+     margin: 0;
+     padding: 20px;
+     margin-bottom: 40px;
+     /*background: transparent;*/
+     box-shadow: none;
+  }
+
+   .social {
+     position: static;
+   }
+
+   .social i {
+     font-size: 50px;
+   }
+
+   .social h2 {
+     text-align: left;
+   }
+
+   .gh-feed {
+     display: none;
+   }
+ }
