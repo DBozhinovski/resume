@@ -1,152 +1,222 @@
-/* apply a natural box layout model to all elements, but allowing components to change */
-html {
-  box-sizing: border-box;
-}
-*, *:before, *:after {
-  box-sizing: inherit;
+@media print {
+  .toc {
+    display: none;
+  }
+
+  .description {
+    font-style: italic;
+    margin-left: 10px;
+    margin-top: 0;
+    font-family: Lora;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: Lora;
+  }
+
+  article {
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 50px;
+  }
+
+  .content h2 {
+    color: #E6860D;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 40px;
+  }
+
+  .content a {
+    color: #1BBC9B;
+  }
+
+  .content h3 {
+    margin: 0;
+    margin-top: 60px;
+    margin-bottom: 20px;
+    padding: 0;
+  }
+
+  .content h4 {
+    margin: 0;
+    padding: 0;
+    color: #666;
+    font-weight: normal;
+  }
+
+  .content h5 {
+    margin: 0;
+    padding: 0;
+    font-weight: 300;
+    font-family: Lato;
+  }
+
+  sup {
+    display: none;
+  }
+
+  .content {
+    width: 98%;
+    margin: 0 auto;
+  }
+
+  .content article:last-child {
+    display: none;
+  }
 }
 
-body {
-  background-color: #f8f8f8;
-  /*background: #F6FFE0;*/
-  text-rendering: optimizeLegibility;
-  font-size: 1.4em;
-  line-height: 1.4em;
-  font-family: Lato;
-  font-weight: 300;
-}
+@media screen {
 
-p {
-  line-height: 1.4em;
-}
+  /* apply a natural box layout model to all elements, but allowing components to change */
+  html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
 
-.toc {
-  position: fixed;
-  right: 0;
-  top: 0;
-  width: 230px;
-  font-size: .8em;
-  height: 100%;
-  background: #ddd;
-  box-shadow: 0 -4px 6px rgba(0,0,0, .4);
-}
+  body {
+    background-color: #f8f8f8;
+    /*background: #F6FFE0;*/
+    text-rendering: optimizeLegibility;
+    font-size: 1.4em;
+    line-height: 1.4em;
+    font-family: Lato;
+    font-weight: 300;
+  }
 
-.toc>li {
-  color: #888;
-}
+  p {
+    line-height: 1.4em;
+  }
 
-.toc a {
-  color: #1BBC9B;
-  text-decoration: none;
-}
+  .toc {
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 230px;
+    font-size: .8em;
+    height: 100%;
+    background: #ddd;
+    box-shadow: 0 -4px 6px rgba(0,0,0, .4);
+  }
 
-.profile {
-  width: 120px;
-  height: 120px;
-  background: url('/resume/images/profile.jpg');
-  background-size: 120px;
-  display: block;
-  margin: 20px auto;
-  margin-bottom: 40px;
-  border: 3px solid #999;
-  border-radius: 120px;
-}
+  .toc>li {
+    color: #888;
+  }
 
-.social {
-  padding: 20px;
-  width: 100%;
-  position: absolute;
-  bottom: 0;
-}
+  .toc a {
+    color: #1BBC9B;
+    text-decoration: none;
+  }
 
-.social i {
-  font-size: 30px;
-}
+  .profile {
+    width: 120px;
+    height: 120px;
+    background: url('/resume/images/profile.jpg');
+    background-size: 120px;
+    display: block;
+    margin: 20px auto;
+    margin-bottom: 40px;
+    border: 3px solid #999;
+    border-radius: 120px;
+  }
 
-.social h2, .gh-feed h2 {
-  font-family: Lato;
-  font-size: 18px;
-  text-align: center;
-}
+  .social {
+    padding: 20px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+  }
 
-.gh-feed {
-  width: 100%;
-  position: absolute;
-  bottom: 120px;
-}
+  .social i {
+    font-size: 30px;
+  }
 
-.gh-feed ul {
-  font-size: 14px;
-}
+  .social h2, .gh-feed h2 {
+    font-family: Lato;
+    font-size: 18px;
+    text-align: center;
+  }
 
-header {
-  margin-bottom: 2em;
-}
+  .gh-feed {
+    width: 100%;
+    position: absolute;
+    bottom: 120px;
+  }
 
-header h1 {
-  margin-bottom: 5px;
-}
+  .gh-feed ul {
+    font-size: 14px;
+  }
 
-.description {
-  font-style: italic;
-  margin-left: 10px;
-  margin-top: 0;
-  font-family: Lora;
-}
+  header {
+    margin-bottom: 2em;
+  }
 
-h1, h2, h3, h4, h5, h6 {
-  font-family: Lora;
-}
+  header h1 {
+    margin-bottom: 5px;
+  }
 
-header {
-  margin-left: 20px;
-}
+  .description {
+    font-style: italic;
+    margin-left: 10px;
+    margin-top: 0;
+    font-family: Lora;
+  }
 
-main {
-  margin-left: 40px;
-}
+  h1, h2, h3, h4, h5, h6 {
+    font-family: Lora;
+  }
 
-.content {
-  margin-right: 250px;
-}
+  header {
+    margin-left: 20px;
+  }
 
-article {
-  border-bottom: 1px solid #ccc;
-  margin-bottom: 50px;
-}
+  main {
+    margin-left: 40px;
+  }
 
-.content h2 {
-  color: #E6860D;
-  margin: 0;
-  padding: 0;
-  margin-bottom: 40px;
-}
+  .content {
+    margin-right: 250px;
+  }
 
-.content a {
-  color: #1BBC9B;
-}
+  article {
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 50px;
+  }
 
-.content h3 {
-  margin: 0;
-  margin-top: 60px;
-  margin-bottom: 20px;
-  padding: 0;
-}
+  .content h2 {
+    color: #E6860D;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 40px;
+  }
 
-.content h4 {
-  margin: 0;
-  padding: 0;
-  color: #666;
-  font-weight: normal;
-}
+  .content a {
+    color: #1BBC9B;
+  }
 
-.content h5 {
-  margin: 0;
-  padding: 0;
-  font-weight: 300;
-  font-family: Lato;
-}
+  .content h3 {
+    margin: 0;
+    margin-top: 60px;
+    margin-bottom: 20px;
+    padding: 0;
+  }
 
-sup a{
-  text-decoration: none;
+  .content h4 {
+    margin: 0;
+    padding: 0;
+    color: #666;
+    font-weight: normal;
+  }
+
+  .content h5 {
+    margin: 0;
+    padding: 0;
+    font-weight: 300;
+    font-family: Lato;
+  }
+
+  sup a{
+    text-decoration: none;
+  }
 }

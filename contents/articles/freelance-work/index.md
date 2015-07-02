@@ -1,7 +1,7 @@
 ---
-title: Freelance work
+title: Projects I've worked on
 author: darko
-date: 2012-10-01 15:00
+date: 2012-11-01 15:00
 template: index.html
 ---
 
@@ -10,12 +10,19 @@ template: index.html
 
 Eterni.me is a project that aims to make one digital immortal. The goal is to create a digital avatar of a person, so they leave behind a lasting and meaningful legacy.
 
-**Technologies used**: JavaScript, Node.js, RethinkDB
+**Technologies used**: JavaScript, Node.js, RethinkDB, MongoDB
+
+### Scrap.io
+##### 2014 - current
+
+Scrap.io is a web scraper which aims to provide contextual data out of web pages and services.
+
+**Technologies used**: JavaScript, Node.js, PostgresQL
 
 ### Gambit
-##### 2015 - current
+##### 2015
 
-gambit.com is a gaming platform, for which I build various games. It's my first endeavor into the game dev world, bulding various casual games.
+gambit.com is a gaming platform, for which I built various games. It's my first endeavor into the game dev world, making various casual games.
 
 ### Sideo
 ##### 2014

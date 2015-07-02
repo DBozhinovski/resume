@@ -43,7 +43,7 @@ p {
 .profile {
   width: 120px;
   height: 120px;
-  background: url('/images/profile.jpg');
+  background: url('/resume/images/profile.jpg');
   background-size: 120px;
   display: block;
   margin: 20px auto;

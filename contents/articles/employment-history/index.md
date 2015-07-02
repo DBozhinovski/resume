@@ -1,14 +1,9 @@
 ---
 title: Employment history
 author: darko
-date: 2012-11-01 15:00
+date: 2012-10-01 15:00
 template: index.html
 ---
-### Freelance consultant
-##### 2014 - current
-
-I am currently doing some freelance work for a local company. We built a distributed video platform, and we are currently working on a scraper,
-which aims to provide contextual data out of web pages and services.
 
 ### MediaLab
 #### Senior developer
